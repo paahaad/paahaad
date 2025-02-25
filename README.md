@@ -2,7 +2,7 @@ Hey! Here are some of the things I’ve worked on:
 
 **Projects:**  
 1. Solana Geyser Plugin - [GitHub](https://github.com/paahaad/Solana-Geyser-Plugin-for-ClickHouse)
-2. Read Blockchain Whitepaper with AI   - [Link](https://d-foundation.vercel.app) 
+2. Read Blockchain Whitepaper with AI   - [Link](https://protocals.xyz/) 
 3. Distributed Logger with Kafka & Elasticsearch - [GitHub](https://github.com/paahaad/distributed-logger)  
 4. Custom Prometheus Exporter in Go - [GitHub](https://github.com/paahaad/Prometheus-Exporter-Using-Go)  
 5. Built analytics for a URL shortener using ClickHouse (closed source for t.jio at Jio)  
