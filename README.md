@@ -8,5 +8,4 @@ Hey! Here are some of the things I’ve worked on:
 5. Distributed Logger with Kafka & Elasticsearch - [GitHub](https://github.com/paahaad/distributed-logger)  
 
 **Blogs:**  [Twitter](https://x.com/ParvatRajSingh/articles)
-
-I’m tech-stack agnostic but have worked with Rust, Go, and TypeScript. Please reach out to [twitter](https://x.com/ParvatRajSingh)
+Please reach out to [twitter](https://x.com/ParvatRajSingh)
