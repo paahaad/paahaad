@@ -16,56 +16,19 @@ Things I’m actively learning:
 * `eBPF` (especially networking / **XDP**)
 * Linux performance tooling (**perf**, **flamegraphs**)
 
+
 ---
 
 ## Projects
 
-### Solduino — Solana Arduino SDK
+| Project                                 | Description                                                                                                                                                                                                                                | Links                                                                                                             |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| **Solduino**       | Solana Arduino SDK enabling **embedded devices to interact with the Solana blockchain**. Available directly in the **Arduino IDE** via `Sketch → Include Library → Manage Libraries` and search for **Solduino**. Supported by the **Solana Foundation**. | [Website](https://www.solduino.com/)  [GitHub](https://github.com/torrey-xyz/solduino)                           |
+| **Geyser Plugin for ClickHouse** | Streams **Solana validator data directly into ClickHouse** for high-throughput blockchain analytics.                                                                                                                                       | [GitHub](https://github.com/paahaad/Solana-Geyser-Plugin-for-ClickHouse)                                          |
+| **Block Crumbs**                        | **MEV analytics indexer** for Solana blocks. Extracts metrics such as **Jito transactions per block**, **Jito tips earned per block**, **requested vs consumed compute units**, and **priority fees per transaction**.                               | [GitHub](https://github.com/paahaad/block-crumbs)                                                                 |
+| **Solana ETL Pipeline**                 | Data pipeline for Solana programs using **Arroyo + Kafka Connect + JDBC**. Writes data simultaneously to **PostgreSQL** and **TimescaleDB** for transactional queries and analytical workloads.                                            | [GitHub](https://github.com/paahaad/arroyo-elt) [Post](https://x.com/ParvatRajSingh/status/1948375044897513472) |
+| **Rust HTTP Load Balancer**             | High-performance **HTTP load balancer written in Rust** with multiple load balancing algorithms, health checks, and real-time monitoring.                                                                                                  | [GitHub](https://github.com/paahaad/load-balancer)                                                                |
+| **Solana Validator Operations**         | Operational experience running and maintaining **Solana validator infrastructure**, including node setup, monitoring, and maintenance.                                                                                                     | [Demo](https://x.com/ParvatRajSingh/status/1951970078741934496)                                                   |
 
-SDK that allows **embedded devices to interact with the Solana blockchain**. Its available directly in **Arduino IDE**. Go to `Sketch -> Include Library -> Manage Libraries` and Search for Solduino.
 
-[Website](https://www.solduino.com/) [GitHub](https://github.com/torrey-xyz/solduino)
-
-Special thanks to the Solana Foundation for supporting my work.
-
----
-
-### Solana Geyser Plugin for ClickHouse
-
-Streams **Solana validator data directly into ClickHouse** for analytics.
-
-GitHub: [Link](https://github.com/paahaad/Solana-Geyser-Plugin-for-ClickHouse)
-
----
-
-### Block Crumbs
-
-Block Crumbs is a specialized indexer built for MEV analytics. It answers questions like: how many Jito transactions occurred in a block, how much Jito tip was earned in that block, the requested compute units versus the compute units actually consumed by a transaction, and the priority fee paid per transaction.
-
-GitHub: [Link](https://github.com/paahaad/block-crumbs)
-
----
-
-### Solana ETL Pipeline
-
-Data pipeline for a Solana program. Built using [**Arroyo**](https://www.arroyo.dev/) + **Kafka Connect** and **JDBC connector** to Stores data in **PostgreSQL and TimescaleDB simultaneously**, providing fast query and fast analytics both.
-
-Post: [Link](https://x.com/ParvatRajSingh/status/1948375044897513472)
-GitHub: [Link](https://github.com/paahaad/arroyo-elt)
-
----
-
-### Rust HTTP Load Balancer
-
-A high-performance HTTP load balancer implemented in Rust with multiple load balancing algorithms, health checking, and real-time monitoring.
-
-GitHub: [Link](https://github.com/paahaad/load-balancer)
-
----
-
-### Solana Validator Operations
-
-I can run and operate **Solana validators**.
-
-Demo: [vidoe](https://x.com/ParvatRajSingh/status/1951970078741934496)
 
